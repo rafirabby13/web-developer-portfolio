@@ -222,7 +222,7 @@ main section{
     display: flex;
     justify-content: center;
     gap: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .footer-column{
