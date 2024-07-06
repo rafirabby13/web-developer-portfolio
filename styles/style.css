@@ -19,6 +19,7 @@ body{
 }
 .dark-2{
     color: #474747;
+    line-height: 28px;
 
 }
 .dark-2-ex-title{
@@ -215,4 +216,45 @@ main section{
     /* line-height: 0px; */
     /* padding-top: 10px; */
     margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 200px;
+}
+
+.footer-column{
+    width: 562px;
+    margin-top: 130px;
+    
+}
+.footer-column input{
+    display: block;
+    height: 64px;
+    width: 462px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+}
+.footer-column textarea{
+    width: 461px;
+    margin-bottom: 24px;
+    height: 180px;
+    border: none;
+    border-radius: 5px;
+
+}
+.footer-column img{
+    margin-right: 24px;
+    margin-top: 24px;
+}
+::placeholder{
+    color: #757575;
+    font-size: 16px;
+    padding: 18px 0px;
+    padding-left: 30px;
+
 }
