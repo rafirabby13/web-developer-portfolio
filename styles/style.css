@@ -21,15 +21,33 @@ body{
     color: #474747;
 
 }
+.dark-2-ex-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+.dark-2-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+
+}
 .dark-3{
     color: #757575;
     font-size: 18px;
     line-height: 30px;
 }
+.dark-3-subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: semibold;
+}
 .dark-4{
     color: #757575;
     font-size: 16px;
-    line-height: 28px;
+    /* line-height: 28px; */
 }
 .dark-1{
     color: #181818;
@@ -136,6 +154,7 @@ main{
 }
 main section{
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .about{
@@ -168,4 +187,32 @@ main section{
     padding: 40px 22px;
     border-radius: 10px;
     
+}
+
+
+.resume-container{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    
+    gap: 94px;
+}
+
+.resume-container .experience{
+    height: 175px;
+    width: 500px;
+}
+.experience{
+    margin-bottom: 50px;
+
+}
+
+.experience-description{
+    line-height: 20px;
+    
+}
+.experience-title{
+    /* line-height: 0px; */
+    /* padding-top: 10px; */
+    margin-top: 20px;
 }
