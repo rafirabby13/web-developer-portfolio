@@ -1,0 +1,161 @@
+/* responsive media queries */
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .body {
+    padding: 0px 20px;
+  }
+  .skill-cards,
+  .resume-container,
+  footer,
+  .banner,
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav {
+    margin: 0px;
+  }
+  .li-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .banner-title {
+    line-height: 5rem;
+  }
+
+  .footer {
+    /* gap: 20px; */
+    width: 99%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-column {
+    width: calc(100%-80px);
+    margin: 0px auto;
+  }
+  .footer-column input,
+  button {
+    width: 100%;
+  }
+  .footer-column textarea {
+    width: 100%;
+  }
+  header {
+    background-image: none;
+    /* width: 100%; */
+  }
+  .banner-img {
+    width: 100%;
+    height: auto;
+  }
+  .about {
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+
+    /* background-color: #FFFFFF; */
+  }
+  .about-container {
+    padding: 20px;
+  }
+  .about-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .banner-content {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-content h1 {
+    font-size: 72px;
+  }
+  .resume-container .experience {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+  header {
+    background-image: none;
+    /* width: 100%; */
+  }
+  .skill-cards,
+  .resume-container,
+  footer,
+  .banner,
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-img {
+    width: 100%;
+    height: auto;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .banner-content {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-content h1 {
+    font-size: 72px;
+  }
+  .footer {
+    /* gap: 20px; */
+    width: 99%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-column {
+    width: calc(100%-80px);
+    margin: 0px auto;
+  }
+  .footer-column input,
+  button {
+    width: 100%;
+  }
+  .footer-column textarea {
+    width: 100%;
+  }
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+
+    /* background-color: #FFFFFF; */
+  }
+  .about-container {
+    padding: 20px;
+  }
+  .about-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner {
+    margin: 20px;
+  }
+}
